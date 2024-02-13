@@ -24,11 +24,11 @@ class ScoreViewModel(private val savedStateHandle: SavedStateHandle): ViewModel(
         get() = scoreTeamB
 
 
-    fun setScoreTeamA(value: Int){
+    fun updateScoreTeamA(value: Int){
         scoreTeamA = value
     }
 
-    fun setScoreTeamB(value: Int){
+    fun updateScoreTeamB(value: Int){
         scoreTeamB = value
 
     }
